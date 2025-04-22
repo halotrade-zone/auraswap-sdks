@@ -417,6 +417,12 @@ const SONEIUM_ADDRESSES: ChainAddresses = {
   v4QuoterAddress: '0x3972c00f7ed4885e145823eb7c655375d275a1c5',
 }
 
+const AURA_EUPHORIA_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0x12F37127C0E4B107f33cc3A58A4BE0F82359D509',
+  multicallAddress: '0x7789082672b6E5b39B888ad4ef73E1FB39ab0815',
+  quoterAddress: '0xE095e79D850F44CcF27Df972030A20b6D4A128cC',
+}
+
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
   [ChainId.MAINNET]: MAINNET_ADDRESSES,
   [ChainId.OPTIMISM]: OPTIMISM_ADDRESSES,
@@ -446,6 +452,7 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.UNICHAIN]: UNICHAIN_ADDRESSES,
   [ChainId.MONAD_TESTNET]: MONAD_TESTNET_ADDRESSES,
   [ChainId.SONEIUM]: SONEIUM_ADDRESSES,
+  [ChainId.AURA_EUPHORIA]: AURA_EUPHORIA_ADDRESSES,
 }
 
 /* V3 Contract Addresses */
