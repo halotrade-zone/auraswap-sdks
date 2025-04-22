@@ -1,5 +1,6 @@
 {
-  "name": "@uniswap/smart-wallet-sdk",
+  "name": "@thienlk/smart-wallet-sdk",
+  "version": "0.0.1",
   "description": "⚒️ An SDK for building applications with smart wallets on Uniswap",
   "repository": "https://github.com/Uniswap/sdks.git",
   "keywords": [
@@ -36,7 +37,7 @@
   },
   "sideEffects": false,
   "dependencies": {
-    "@uniswap/sdk-core": "^7.6.0",
+    "@thienlk/sdk-code": "0.0.2",
     "viem": "^2.23.5"
   },
   "devDependencies": {
@@ -60,8 +61,7 @@
     "singleQuote": true
   },
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "release": {
     "extends": "semantic-release-monorepo",

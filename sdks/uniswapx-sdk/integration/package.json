@@ -1,6 +1,6 @@
 {
-  "name": "uniswapx-integration",
-  "version": "0.1.0",
+  "name": "@thienlk/uniswapx-integration",
+  "version": "0.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -28,9 +28,9 @@
   },
   "dependencies": {
     "@ethersproject/bytes": "^5.7.0",
+    "@thienlk/sdk-code": "0.0.2",
     "@typechain/ethers-v5": "^10.1.0",
     "@typechain/hardhat": "^6.1.2",
-    "@uniswap/sdk-core": "^7.5.0",
     "dotenv": "^16.0.3",
     "ethers": "^5.7.0",
     "typechain": "^8.1.0"
